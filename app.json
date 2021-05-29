@@ -1,0 +1,17 @@
+{
+  "name": "alpine",
+  "description": "alpine",
+  "repository": "https://github.com/goofw/heroku_alpine",
+  "stack": "container",
+  "env": {
+    "CMD": {
+      "value": "nc -lp $PORT -ke date"
+    },
+    "APP_ID": {
+      "required": false
+    },
+    "USER_ID": {
+      "required": false
+    }
+  }
+}
